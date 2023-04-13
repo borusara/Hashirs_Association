@@ -1,0 +1,223 @@
+.home{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 10px green);
+    margin: 20px;
+  }
+  .mainpic{
+    border-radius: 0 200px 0 200px;
+    height:600px;
+    width:1000px;
+    filter: drop-shadow(10px 10px 20px gray);
+    margin: 5%;
+  }
+  .maintext{
+    color: white  ;
+    text-shadow: 5px 5px 10px purple ;
+    text-align: center;
+    font-size: 60px;
+    margin: 50px;
+  }
+  .pfp{
+    height:250px;
+    width:250px;
+    border-radius:40%;
+    border: solid 5px gold;
+    padding: 10px;
+    margin: 30px;
+    flex-basis:40%;
+    order:2;
+  }
+  .telegram{
+    height:30px;
+    width:30px;
+    border: none;
+  }
+  body{
+    width: 100%;
+    height:100%;
+    background-image: url("https://i.pinimg.com/236x/0c/b7/a6/0cb7a6df87f4bbe0141e58eb626ec4bc.jpg");
+  }
+  
+  .text{
+    font-size: 30px;
+    color:#46A0ED ;
+    font-weight:10px;
+    margin:20px;
+    margin-left: 70px;
+  }
+  .parent{
+    display:flex;
+    flex-wrap:wrap;
+    margin:50px;
+  }
+  .child{
+    width:90%;
+    height:20%;
+    background: transparent;
+    backdrop-filter:blur(5px);
+    border-radius:100px 0 0 100px;
+    filter:blur(0.2px);
+    border:2px solid white;
+    margin:40px;
+    position:relative;
+    color:white;
+    font-size:30px;
+    display:flex;
+    flex-wrap: wrap;
+    overflow:hidden;
+  }
+  .techtele{
+    color:white;
+  }
+  .techtele:hover{
+    color:#FFFDD0
+  }
+  
+  #pfp{
+    float:left;
+    margin-right:10%;
+  }
+  .channel_text{
+    display: flexbox;
+    flex-direction: column;
+    margin-top:35px;
+    margin-right:20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* following account */
+  @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+  /* devanagari */
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *:focus,
+  *:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  
+  .wrapper {
+    display: inline-flex;
+    list-style: none;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877F2;
+    color: #ffffff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1DA1F2;
+    color: #ffffff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: linear-gradient(0deg, #E4405F,purple,darkblue);
+    color: #ffffff;
+  }
+  
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background: #333333;
+    color: #ffffff;
+  }
+  
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background: #CD201F;
+    color: #ffffff;
+  }
+  .wrapper .telegram:hover,
+  .wrapper .telegram:hover .tooltip,
+  .wrapper .telegram:hover .tooltip::before {
+    background: rgb(24, 138, 255);
+    color: #ffffff;
+  }
+  
+  /* down */
+  .down{
+    width: 100%;
+    padding:50px;
+    background-color:#383744;
+    text-align: center;
+    font-size:50px;
+    position:absolute;
+    top:440%;
+  }
